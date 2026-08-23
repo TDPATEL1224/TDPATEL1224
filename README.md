@@ -19,7 +19,7 @@ I'm currently pursuing a Graduate Certificate in Cloud Architecture and Administ
 - 🌱 Studying for AWS Solutions Architect Associate, AWS AI Practitioner, and HashiCorp Terraform Associate
 - ✅ AWS Certified Cloud Practitioner
 - 💬 Ask me about Terraform, AWS multi-account/VPC architecture, CI/CD pipelines, or cloud security posture (CSPM/CNAPP)
-- 📫 Reach me: **[LinkedIn](https://www.linkedin.com/in/tirth-patel-33827a381/)** · tirthdpatel200@gmail.com
+- 📫 Reach me: **[LinkedIn](https://www.linkedin.com/in/tirth-patel-33827a381/)** · tirthdpatel08@gmail.com
 
 ---
 
