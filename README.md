@@ -28,23 +28,27 @@ Across the projects below I've worked on **Windows and Active Directory administ
 
 | Project | Area | Highlights |
 |---|---|---|
-| **Service Desk Ticketing & Troubleshooting Simulator** <!-- add repo link --> | IT support / ITSM | ITIL-style impact × urgency priority matrix, live SLA timers, auto-assignment, knowledge base for lockouts, Wi-Fi, Outlook, printing |
-| **Endpoint Provisioning Toolkit** <!-- add repo link --> | Endpoint management | PowerShell + Bash new-hire setup for Windows 11 and macOS, Entra ID / M365 readiness, dry-run mode, Pester + ShellCheck in CI |
-| **IT Asset Management System** <!-- add repo link --> | IT operations | Full asset lifecycle, QR labels and barcode scanning, audit discrepancy detection, PostgreSQL append-only history |
-| **[Two-Tier Web App on AWS with Terraform](https://github.com/TDPATEL1224/ACS730-FinalProject-TwoTierWebApp)** · team of 4 | Infrastructure as code | Dev/Staging/Prod from reusable modules, ALB + Auto Scaling across 3 AZs, tfsec scans gate every merge to prod |
-| **Enterprise Active Directory Network on Azure** | Windows / identity | AD DS domain, domain-joined IIS server and Windows 11 client, 3 peered VNets, Azure Bastion with zero public IPs |
-| **Multi-Region Resilient Website on Azure** | Cloud networking | Canada East + Central India, two IIS servers per region, round-robin load balancing, global routing to the nearest region |
+| **[Service Desk Ticketing & Troubleshooting Simulator](https://github.com/TDPATEL1224/service-desk-simulator)** | IT support / ITSM | ITIL-style impact × urgency priority matrix, live SLA timers, auto-assignment, knowledge base for lockouts, Wi-Fi, Outlook, printing |
+| **[Endpoint Provisioning Toolkit](https://github.com/TDPATEL1224/endpoint-provisioning-toolkit)** | Endpoint management | PowerShell + Bash new-hire setup for Windows 11 and macOS, Entra ID / M365 readiness, dry-run mode, Pester + ShellCheck in CI |
+| **[IT Asset Management System](https://github.com/TDPATEL1224/IT-Asset-Management-and-Inventory-Tracking-System)** | IT operations | Full asset lifecycle, QR labels and barcode scanning, audit discrepancy detection, PostgreSQL append-only history |
+| **[Two-Tier Auto-Scaling Web App with Terraform](https://github.com/TDPATEL1224/Two-tier-autoscaling-web-app-terraform)** | Infrastructure as code | Dev/Staging/Prod from reusable modules, ALB + Auto Scaling Group, TFLint + Trivy security scans on every push |
+| **[Multi-Environment AWS Network with Terraform](https://github.com/TDPATEL1224/Aws-multi-env-network-terraform)** | Networking / IaC | Routable nonprod + private-only prod VPCs over VPC peering, separate state for every layer |
+| **[Event-Driven Serverless Pipeline](https://github.com/TDPATEL1224/Event-Driven-Serverless-Pipeline)** | Automation / serverless | S3 upload triggers Lambda, which validates the data and writes it to DynamoDB; no servers, no polling |
 
 <details>
 <summary><b>More projects</b></summary>
 
+**On GitHub**
+- **[Resilient News Ingestion Pipeline](https://github.com/TDPATEL1224/resilient-news-ingestion-pipeline):** scheduled Lambda + EventBridge archiving API data to S3, built to prove the failure handling
+- **[Flask Deploy: EC2 by Hand vs Docker](https://github.com/TDPATEL1224/flask-deploy-ec2-vs-docker):** the same app deployed manually on a Terraform-built EC2 server and as a multi-arch Docker image, then compared
+
+**Built in Azure / AWS (no public repo)**
+- **Enterprise Active Directory network on Azure:** AD DS domain, domain-joined IIS server and Windows 11 client, 3 peered VNets, Azure Bastion with zero public IPs
+- **Multi-region resilient website on Azure:** Canada East + Central India, two IIS servers per region, round-robin load balancing, routing to the nearest region
 - **Auto-scaling 3-tier web app on AWS:** ALB + Auto Scaling Group + RDS MySQL + EFS, load-tested from 2 to 6 instances, then self-healing after terminating every instance
-- **Serverless pipelines on AWS:** scheduled Lambda + EventBridge ingestion to S3 with failure handling, and an event-driven S3 → Lambda → DynamoDB pipeline
 - **CI/CD to Kubernetes:** GitHub Actions builds and pushes Docker images (version and commit-SHA tags) to a 3-node kubeadm cluster, then a rolling update and a rollback
-- **Azure data services:** Azure SQL Database with Azure Monitor alerts, Cosmos DB for NoSQL, and storage redundancy and failover planning (LRS → GRS/GZRS)
-- **Azure PowerShell automation:** storage accounts, blob containers, access tiers
+- **Azure data services:** Azure SQL Database with Azure Monitor alerts, Cosmos DB for NoSQL, and storage redundancy and failover planning
 - **Linux server hardening on EC2:** built entirely with AWS CLI, custom systemd service, least-privilege service account
-- **Project management web app:** Node.js / Express / TypeScript API, React + Vite frontend, replaced a spreadsheet tracker
 
 </details>
 
